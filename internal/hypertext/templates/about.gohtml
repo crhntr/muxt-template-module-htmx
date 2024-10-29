@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{{template "head" "About"}}
+<body>
+<main class='container'>
+
+	<h1>About</h1>
+
+</main>
+{{template "footer"}}
+</body>
+</html>
+
+{{- define "GET /about" -}}
+  {{template "about.gohtml" .}}
+{{- end -}}
