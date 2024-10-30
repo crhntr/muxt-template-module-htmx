@@ -24,3 +24,7 @@ Write handler tests in `./internal/hypertext/server_test.go`.
 Write template tests in `./internal/hypertext/template_routes_test.go`.
 
 Run tests with: `go test ./...`
+
+## Licensing
+
+Please consider removing or replacing the LICENSE file.
