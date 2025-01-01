@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/crhntr/dom v0.1.0-dev.7
-	github.com/crhntr/muxt v0.8.5
+	github.com/crhntr/muxt v0.9.13
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.11.2
 	github.com/stretchr/testify v1.10.0
 )

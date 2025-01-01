@@ -5,6 +5,8 @@ github.com/crhntr/dom v0.1.0-dev.7 h1:KFrjwW8hV3liPAhYbtZTuGcHuVvFpk9rwZTcc3uwgL
 github.com/crhntr/dom v0.1.0-dev.7/go.mod h1:vhJEL2iLbRD+Isp2skmSE2qhSPp0E8AT1dv0KkW4XA8=
 github.com/crhntr/muxt v0.8.5 h1:5Pr0f3lYVPm0ovymoJpBtAuwILXeBiawVh+xcEVq0/E=
 github.com/crhntr/muxt v0.8.5/go.mod h1:lzTbhEJ1i9LwM7Y8OY22id0dPZFv8Ngw6Su2RTSvc5w=
+github.com/crhntr/muxt v0.9.13 h1:jaPMvmcHQrOTdEJAfEHexyEYr9/7d07ThalslNZTUkk=
+github.com/crhntr/muxt v0.9.13/go.mod h1:VjFKpMJWEbdPq85v/Uf56Jk4UTDjvYCi79VHg2clNM4=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
