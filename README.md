@@ -11,7 +11,7 @@ You may also want to see:
 
 ## Developing
 
-Add new html in `./internal/hypertext/templates`.
+Add new HTML in `./internal/hypertext/templates`.
 Use inline template declarations in the template files using muxt template name semantics
 then run Go generate to generate a function that maps hypertext concepts to helpful handler methods.
 
