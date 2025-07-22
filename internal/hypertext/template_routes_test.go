@@ -34,7 +34,7 @@ func TestTemplates(t *testing.T) {
 					require.NotNil(t, ctx)
 				}
 				assert.Equal(t, http.StatusOK, res.StatusCode)
-				doc := domtest.Response(t, res)
+				doc := domtest.ParseResponseDocument(t, res)
 				if el := doc.QuerySelector(`h1`); assert.NotNil(t, el) {
 					assert.Equal(t, "Hello, somebody!", strings.TrimSpace(el.TextContent()))
 				}
@@ -47,7 +47,7 @@ func TestTemplates(t *testing.T) {
 			},
 			Response: func(rsv *fake.Server, res *http.Response) {
 				assert.Equal(t, http.StatusOK, res.StatusCode)
-				doc := domtest.Response(t, res)
+				doc := domtest.ParseResponseDocument(t, res)
 				if el := doc.QuerySelector(`h1`); assert.NotNil(t, el) {
 					assert.Equal(t, "About", strings.TrimSpace(el.TextContent()))
 				}
